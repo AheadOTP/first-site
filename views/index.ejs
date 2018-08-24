@@ -13,13 +13,21 @@
     		<p>dasdas</p>
     	</div>
     </main>
-    <div class="row">
-    	<% include ../partials/product %>
-    	<% include ../partials/product %>
-    	<% include ../partials/product %>
-    	<% include ../partials/product %>
-    	<% include ../partials/product %>
-    	<% include ../partials/product %>
+
+    <% products.forEach(function(element, index) { %>
+        <div class="row">
+    	    <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="<%= element[0].imageUrl %>" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><%= element[0].title %></h5>
+                <p class="card-text"><%= element[0].description %></p>
+              <h4><%= element[0].price %></h4>
+              <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+      <% }) %>
     </div>
   </body>
 </html>

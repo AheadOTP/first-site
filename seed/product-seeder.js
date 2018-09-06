@@ -11,19 +11,29 @@ var products = [
 		imageUrl: 'https://cdn.shopify.com/s/files/1/1253/0787/products/bucklers-moisturize-soap_1024x1024.png?v=1460917198',
 		title: "Buckler's Soap",
 		description: 'qualitative',
-		price: 15
+		price: 15,
+    id: 1
 	}),
 	new Product({
 		imageUrl: 'https://cdn.shopify.com/s/files/1/1253/0787/products/bucklers-moisturize-soap_1024x1024.png?v=1460917198',
 		title: "Average Buckler's Soap",
 		description: 'average',
-		price: 10
+		price: 10,
+    id: 2
 	}),
 	new Product({
 		imageUrl: 'https://cdn.shopify.com/s/files/1/1253/0787/products/bucklers-moisturize-soap_1024x1024.png?v=1460917198',
 		title: "Awesome Buckler's Soap",
 		description: 'awesome',
-		price: 25
+		price: 25,
+    id: 3
+	}),
+  new Product({
+    imageUrl: 'https://cdn.shopify.com/s/files/1/1253/0787/products/bucklers-moisturize-soap_1024x1024.png?v=1460917198',
+		title: "AAAAAAAAA MILO",
+		description: 'MIIILOOO',
+		price: 65,
+    id: 4
 	})
 ];
 
